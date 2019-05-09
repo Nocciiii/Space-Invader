@@ -1,0 +1,7 @@
+C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\ViewModel\bin\Debug\Model.dll
+C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\ViewModel\bin\Debug\Model.pdb
+C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\ViewModel\obj\Debug\ViewModel.pdb
