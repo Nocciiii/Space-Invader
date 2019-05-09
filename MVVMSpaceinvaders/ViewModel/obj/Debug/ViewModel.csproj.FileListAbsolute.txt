@@ -5,3 +5,10 @@ C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\V
 C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
 C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\ViewModel\obj\Debug\ViewModel.dll
 C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\ViewModel\obj\Debug\ViewModel.pdb
+H:\C#\MVVMSpaceinvaders\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+H:\C#\MVVMSpaceinvaders\ViewModel\obj\Debug\ViewModel.dll
+H:\C#\MVVMSpaceinvaders\ViewModel\obj\Debug\ViewModel.pdb
+H:\C#\MVVMSpaceinvaders\ViewModel\bin\Debug\ViewModel.dll
+H:\C#\MVVMSpaceinvaders\ViewModel\bin\Debug\ViewModel.pdb
+H:\C#\MVVMSpaceinvaders\ViewModel\bin\Debug\Model.dll
+H:\C#\MVVMSpaceinvaders\ViewModel\bin\Debug\Model.pdb

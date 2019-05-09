@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Model
 {
-    class Spieler
+    public class Spieler
     {
+        int leben = 3;
+        Uri aussehen = new Uri("Laser_Cannon.png", UriKind.Relative);
+
+        public int Leben { get => leben; set => leben = leben-1; }
+        public Uri Aussehen { get => aussehen; set => aussehen = value; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,21 +19,25 @@ namespace View
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Spieler spieler;
+
         public MainWindow()
         {
             InitializeComponent();
+            erstelleSpieler();
         }
 
-        private void Image_MouseMove(object sender, MouseEventArgs e)
+        private void erstelleSpieler()
         {
-            Point p = e.GetPosition(this);
-            Canvas.SetLeft(Panzer, p.X);
+            this.spieler = new Spieler();
+            Image img = new Image();
+            double left = spielfeld.ActualWidth/2;
+            
+            Canvas.SetLeft(img, left);
+            Canvas.SetTop(img, 15);
+            img.Height = 10;
+            img.Width = 25;
+            img.Source = new BitmapImage(spieler.Aussehen);
         }
-
-        private void Panzer_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            schuss();
-        }
-        
     }
 }

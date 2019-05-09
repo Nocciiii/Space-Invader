@@ -5,17 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using Model;
 using System.Threading;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ViewModel
 {
     public class VMMainWindow
     {
+        
 
-        private void schuss()
+        public VMMainWindow()
         {
-            Schuss neuerSchuss = new Schuss();
-            Thread s = new Thread(new ParameterizedThreadStart(neuerSchuss.feuer));
-            s.Start(lockObject);
+           
         }
     }
 }
