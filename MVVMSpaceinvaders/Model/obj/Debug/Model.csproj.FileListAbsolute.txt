@@ -2,8 +2,3 @@ C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\M
 C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\Model\bin\Debug\Model.pdb
 C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\Model\obj\Debug\Model.dll
 C:\Users\KuemmertJamie\Documents\Visual Studio 2017\Projects\MVVMSpaceinvaders\Model\obj\Debug\Model.pdb
-H:\C#\MVVMSpaceinvaders\Model\bin\Debug\Model.dll
-H:\C#\MVVMSpaceinvaders\Model\bin\Debug\Model.pdb
-H:\C#\MVVMSpaceinvaders\Model\obj\Debug\Model.dll
-H:\C#\MVVMSpaceinvaders\Model\obj\Debug\Model.pdb
-H:\C#\MVVMSpaceinvaders\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

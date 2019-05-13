@@ -11,7 +11,7 @@
         <vm:VMMainWindow/>
     </Window.DataContext>
     <Grid>
-        <Canvas Name="spielfeld" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517" MouseMove="spielfeld_MouseMove">
+        <Canvas HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517">
             <Canvas.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -22,7 +22,8 @@
                     <GradientStop Color="#FF181B1B" Offset="0.483"/>
                 </LinearGradientBrush>
             </Canvas.Background>
-
+            <Image Source="Laser_Cannon.png" Name="Panzer" Height="27" Canvas.Left="222" Canvas.Top="282" Width="60" Stretch="Fill" MouseMove="Image_MouseMove" MouseLeftButtonDown="Panzer_MouseLeftButtonDown"/>
         </Canvas>
+
     </Grid>
 </Window>

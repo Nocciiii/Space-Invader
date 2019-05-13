@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class Schuss
+    class Schuss
     {
         Double posx;
         Double posy;
@@ -18,11 +18,6 @@ namespace Model
             {
                 MoveUP();
             }
-        }
-
-        public void feuer(object obj)
-        {
-            throw new NotImplementedException();
         }
 
         public void MoveUP()
