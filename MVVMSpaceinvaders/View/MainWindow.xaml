@@ -11,7 +11,7 @@
         <vm:VMMainWindow/>
     </Window.DataContext>
     <Grid>
-        <Canvas Name="spielfeld" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517">
+        <Canvas Name="spielfeld" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517" MouseMove="spielfeld_MouseMove">
             <Canvas.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -22,8 +22,7 @@
                     <GradientStop Color="#FF181B1B" Offset="0.483"/>
                 </LinearGradientBrush>
             </Canvas.Background>
-            <Image Height="100" Canvas.Left="105" Canvas.Top="190" Width="100"/>
-        </Canvas>
 
+        </Canvas>
     </Grid>
 </Window>

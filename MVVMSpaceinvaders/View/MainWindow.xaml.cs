@@ -20,6 +20,7 @@ namespace View
     public partial class MainWindow : Window
     {
         private Spieler spieler;
+        private Image img;
 
         public MainWindow()
         {
@@ -30,14 +31,23 @@ namespace View
         private void erstelleSpieler()
         {
             this.spieler = new Spieler();
-            Image img = new Image();
+            this.img = new Image();
+            img.Source = new BitmapImage(spieler.Aussehen);
             double left = spielfeld.ActualWidth/2;
-            
+            spielfeld.Children.Add(img);
             Canvas.SetLeft(img, left);
             Canvas.SetTop(img, 15);
             img.Height = 10;
             img.Width = 25;
-            img.Source = new BitmapImage(spieler.Aussehen);
+
+
+        }
+
+       
+        private void spielfeld_MouseMove(object sender, MouseEventArgs e)
+        {
+            Point p = e.GetPosition(this);
+            Canvas.SetLeft(img, p.X);
         }
     }
 }
